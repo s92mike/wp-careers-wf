@@ -1,0 +1,23 @@
+{
+    "name": "boundless/bl-careers-webflow",
+    "description": "Careers component for Webflow integration - Greenhouse API integration without WordPress dependencies.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Traffic Team",
+            "email": "traffic@boundless.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Boundless\\BLCareersWebflow\\": ""
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
