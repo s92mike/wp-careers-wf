@@ -1,4 +1,4 @@
-# Boundless Careers Webflow Component
+# Careers Webflow Component
 
 A standalone React component for displaying careers/job listings that integrates with the Greenhouse API. This component is designed to work both as a WordPress plugin and as a standalone component for Webflow or other platforms.
 
