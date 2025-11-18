@@ -8,21 +8,21 @@ import './styles/careers.scss';
 // Initialize the component when DOM is ready
 document.addEventListener( 'DOMContentLoaded', () => {
 	// Initialize main careers component
-	const mainContainer = document.getElementById( 'bl-careers-webflow-root' );
+	const mainContainer = document.getElementById( 'fm-careers-webflow-root' );
 	if ( mainContainer ) {
 		const root = createRoot( mainContainer );
 		root.render( <CareersComponent /> );
 	}
 
 	// Initialize featured component
-	const featuredContainer = document.getElementById( 'bl-careers-webflow-featured' );
+	const featuredContainer = document.getElementById( 'fm-careers-webflow-featured' );
 	if ( featuredContainer ) {
 		const root = createRoot( featuredContainer );
 		root.render( <FeaturedComponent /> );
 	}
 
 	// Initialize apply component
-	const applyContainer = document.getElementById( 'bl-careers-webflow-apply' );
+	const applyContainer = document.getElementById( 'fm-careers-webflow-apply' );
 	if ( applyContainer ) {
 		const root = createRoot( applyContainer );
 		root.render( <ApplyComponent /> );

@@ -22,9 +22,9 @@ A standalone React component for displaying careers/job listings that integrates
 1. Upload the plugin to your WordPress site
 2. Activate the plugin
 3. The components will automatically render in the footer:
-   - Main listings: `bl-careers-webflow-root`
-   - Featured listings: `bl-careers-webflow-featured`
-   - Application form: `bl-careers-webflow-apply`
+   - Main listings: `fm-careers-webflow-root`
+   - Featured listings: `fm-careers-webflow-featured`
+   - Application form: `fm-careers-webflow-apply`
 
 ### As a Standalone Component
 
@@ -36,20 +36,20 @@ A standalone React component for displaying careers/job listings that integrates
 
 2. Include the component files:
 ```html
-<link rel="stylesheet" href="path/to/bl-careers-webflow.css">
-<script src="path/to/bl-careers-webflow.js"></script>
+<link rel="stylesheet" href="path/to/fm-careers-webflow.css">
+<script src="path/to/fm-careers-webflow.js"></script>
 ```
 
 3. Add container elements for the components you want to use:
 ```html
 <!-- Main careers listings -->
-<div id="bl-careers-webflow-root"></div>
+<div id="fm-careers-webflow-root"></div>
 
 <!-- Featured job listings -->
-<div id="bl-careers-webflow-featured"></div>
+<div id="fm-careers-webflow-featured"></div>
 
 <!-- Job application form -->
-<div id="bl-careers-webflow-apply"></div>
+<div id="fm-careers-webflow-apply"></div>
 ```
 
 4. Initialize the components:
@@ -153,7 +153,3 @@ src/
 ## License
 
 GPL v2 or later
-
-## Support
-
-For support and questions, please contact the Traffic Team at Boundless.

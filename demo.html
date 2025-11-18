@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boundless Careers Webflow Component Demo</title>
+    <title>Careers Webflow Component Demo</title>
     
     <!-- React and ReactDOM -->
     <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     
     <!-- Component Styles -->
-    <link rel="stylesheet" href="dist/bl-careers-webflow.css">
+    <link rel="stylesheet" href="dist/fm-careers-webflow.css">
     
     <style>
         body {
@@ -71,15 +71,15 @@
         
         <h3>1. Main Careers Listings</h3>
         <p>Full job listings with filtering and pagination:</p>
-        <div id="bl-careers-webflow-root"></div>
+        <div id="fm-careers-webflow-root"></div>
         
         <h3>2. Featured Job Listings</h3>
         <p>Featured/priority job positions:</p>
-        <div id="bl-careers-webflow-featured"></div>
+        <div id="fm-careers-webflow-featured"></div>
         
         <h3>3. Job Application Form</h3>
         <p>Application form (requires job ID in URL):</p>
-        <div id="bl-careers-webflow-apply"></div>
+        <div id="fm-careers-webflow-apply"></div>
         
         <p><em>Note: The application form requires a job ID parameter in the URL (e.g., ?gh_jid=123) to display properly.</em></p>
     </div>
@@ -95,18 +95,18 @@
         
         <h3>2. Include Component Files</h3>
         <div class="code-block">
-            <code>&lt;link rel="stylesheet" href="path/to/bl-careers-webflow.css"&gt;<br>
-&lt;script src="path/to/bl-careers-webflow.js"&gt;&lt;/script&gt;</code>
+            <code>&lt;link rel="stylesheet" href="path/to/fm-careers-webflow.css"&gt;<br>
+&lt;script src="path/to/fm-careers-webflow.js"&gt;&lt;/script&gt;</code>
         </div>
         
         <h3>3. Add Container Elements</h3>
         <div class="code-block">
             <code>// Main careers listings<br>
-&lt;div id="bl-careers-webflow-root"&gt;&lt;/div&gt;<br><br>
+&lt;div id="fm-careers-webflow-root"&gt;&lt;/div&gt;<br><br>
 // Featured job listings<br>
-&lt;div id="bl-careers-webflow-featured"&gt;&lt;/div&gt;<br><br>
+&lt;div id="fm-careers-webflow-featured"&gt;&lt;/div&gt;<br><br>
 // Job application form<br>
-&lt;div id="bl-careers-webflow-apply"&gt;&lt;/div&gt;</code>
+&lt;div id="fm-careers-webflow-apply"&gt;&lt;/div&gt;</code>
         </div>
         
         <h3>4. Initialize Components</h3>
@@ -148,12 +148,12 @@ BLCareersWebflow.init('apply-container', 'apply');      // Application form</cod
     </div>
 
     <!-- Component Script -->
-    <script src="dist/bl-careers-webflow.js"></script>
+    <script src="dist/fm-careers-webflow.js"></script>
     
     <script>
         // The component should auto-initialize when the DOM is ready
         // You can also manually initialize it:
-        // BLCareersWebflow.init('bl-careers-webflow-root');
+        // BLCareersWebflow.init('fm-careers-webflow-root');
         
         console.log('Careers component loaded. Available methods:', Object.keys(BLCareersWebflow));
     </script>

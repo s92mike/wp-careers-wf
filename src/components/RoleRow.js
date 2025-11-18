@@ -21,15 +21,15 @@ const RoleRow = ( { role, isLast, onClick } ) => {
 	};
 
 	return (
-		<div className={ `bl-careers-webflow-row${ isLast ? ' bl-careers-webflow-row--last' : '' }` }>
-			<div className="bl-careers-webflow-row-title">
+		<div className={ `fm-careers-webflow-row${ isLast ? ' fm-careers-webflow-row--last' : '' }` }>
+			<div className="fm-careers-webflow-row-title">
 				<a href={ applyUrl }>{ role.title }</a>
 			</div>
-			<div className="bl-careers-webflow-row-department">{ role.departmentName }</div>
-			<div className="bl-careers-webflow-row-location">{ role.jobLocation }</div>
-			<div className="bl-careers-webflow-row-arrow">
-				<button className="bl-careers-webflow-row-arrow-btn" onClick={ onUrlClick }>
-					<span className="bl-careers-webflow-row-arrow-icon">&rarr;</span>
+			<div className="fm-careers-webflow-row-department">{ role.departmentName }</div>
+			<div className="fm-careers-webflow-row-location">{ role.jobLocation }</div>
+			<div className="fm-careers-webflow-row-arrow">
+				<button className="fm-careers-webflow-row-arrow-btn" onClick={ onUrlClick }>
+					<span className="fm-careers-webflow-row-arrow-icon">&rarr;</span>
 				</button>
 			</div>
 		</div>

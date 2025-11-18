@@ -4,7 +4,7 @@ const path = require( 'path' );
 module.exports = ( env ) => {
 	return {
 		entry: {
-			'bl-careers-webflow': './src/index.js',
+			'fm-careers-webflow': './src/index.js',
 		},
 		mode: env.mode,
 		devtool: env.mode === 'development' ? 'source-map' : false,

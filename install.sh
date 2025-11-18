@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Boundless Careers Webflow Component Installation Script
+# Careers Webflow Component Installation Script
 
-echo "🚀 Installing Boundless Careers Webflow Component..."
+echo "🚀 Installing Careers Webflow Component..."
 
 # Check if Node.js is installed
 if ! command -v node &> /dev/null; then
@@ -43,7 +43,7 @@ fi
 echo "✅ Component built successfully"
 
 # Check if build files exist
-if [ ! -f "dist/bl-careers-webflow.js" ] || [ ! -f "dist/bl-careers-webflow.css" ]; then
+if [ ! -f "dist/fm-careers-webflow.js" ] || [ ! -f "dist/fm-careers-webflow.css" ]; then
     echo "❌ Build files not found. Build may have failed."
     exit 1
 fi
@@ -52,24 +52,24 @@ echo ""
 echo "🎉 Installation completed successfully!"
 echo ""
 echo "📁 Plugin files created:"
-echo "   - bl-careers-webflow.php (WordPress plugin)"
-echo "   - dist/bl-careers-webflow.js (Component JavaScript)"
-echo "   - dist/bl-careers-webflow.css (Component styles)"
+echo "   - fm-careers-webflow.php (WordPress plugin)"
+echo "   - dist/fm-careers-webflow.js (Component JavaScript)"
+echo "   - dist/fm-careers-webflow.css (Component styles)"
 echo ""
 echo "🔧 To use as a WordPress plugin:"
 echo "   1. Activate the plugin in WordPress admin"
 echo "   2. All three components will render in the footer:"
-echo "      - Main listings: bl-careers-webflow-root"
-echo "      - Featured listings: bl-careers-webflow-featured"
-echo "      - Application form: bl-careers-webflow-apply"
+echo "      - Main listings: fm-careers-webflow-root"
+echo "      - Featured listings: fm-careers-webflow-featured"
+echo "      - Application form: fm-careers-webflow-apply"
 echo ""
 echo "🌐 To use as a standalone component:"
 echo "   1. Include React and ReactDOM in your HTML"
 echo "   2. Include the component CSS and JS files"
 echo "   3. Add container elements for the components you want:"
-echo "      - Main listings: bl-careers-webflow-root"
-echo "      - Featured listings: bl-careers-webflow-featured"
-echo "      - Application form: bl-careers-webflow-apply"
+echo "      - Main listings: fm-careers-webflow-root"
+echo "      - Featured listings: fm-careers-webflow-featured"
+echo "      - Application form: fm-careers-webflow-apply"
 echo ""
 echo "📖 See README.md for detailed usage instructions"
 echo "🎯 Open demo.html in a browser to see all three components in action"
